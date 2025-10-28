@@ -1,1 +1,65 @@
 /* your code */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top, #1a1a1a 0%, #000 100%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 800px;
+  background: #111;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+  border: 2px solid #222;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+thead {
+  background: linear-gradient(90deg, #b8860b, #ffd700);
+  color: #000;
+}
+
+th, td {
+  padding: 14px 18px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #1b1b1b;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #141414;
+}
+
+tbody tr:hover {
+  background-color: rgba(255, 215, 0, 0.15);
+  transition: 0.3s;
+  transform: scale(1.01);
+}
+
+th {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+td {
+  font-size: 0.95rem;
+}
+
+table caption {
+  caption-side: top;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #ffd700;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
